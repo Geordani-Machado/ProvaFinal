@@ -7,7 +7,7 @@ using namespace std;
 
   class Fabricante{
 		public:
-		void set_nome(sting nome);
+		void set_nome(string nome);
 		void set_paisDeorigem(string paisDeOrigem);
 
 		string get_nome();

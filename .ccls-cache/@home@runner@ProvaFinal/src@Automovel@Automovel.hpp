@@ -1,10 +1,10 @@
 #include <iostream>
 #include "../Veiculo/Veiculo.hpp"
 using namespace std;
-#ifndef AUTOMOVEIS_H
-#define AUTOMOVEIS_H
+#ifndef AUTOMOVEL_H
+#define AUTOMOVEL_H
 
-class Automoveis : public Veiculos{
+class Automovel: public Veiculos{
 
 public:
 

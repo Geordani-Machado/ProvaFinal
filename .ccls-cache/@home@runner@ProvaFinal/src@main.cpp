@@ -1,5 +1,12 @@
 #include <iostream>
+#include "./Automovel/Automovel.hpp"
+
+using namespace std;
+Automovel a;
 
 int main() {
-  std::cout << "Hello World!\n";
+
+	//Automovel
+	a.AbrirPortaMalas();
+	a.set_Acelerar("O carro acelera a 250kmh");
 }
