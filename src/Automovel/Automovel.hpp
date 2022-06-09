@@ -4,12 +4,15 @@ using namespace std;
 #ifndef AUTOMOVEL_H
 #define AUTOMOVEL_H
 
-class Automovel: public Veiculos{
+class Automovel: public Veiculo{
 
 public:
 
 void set_diametroRoda(int diametroRoda);
-void set_Acelerar();
+
+void set_fabricante(string f);
+
+void Acelerar(string Acelerar);
 
 void MostrarDetalhes();
 void AbrirPortaMalas();

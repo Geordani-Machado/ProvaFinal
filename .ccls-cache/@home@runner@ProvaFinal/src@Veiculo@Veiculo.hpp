@@ -1,14 +1,13 @@
 #include <iostream>
-#include "../Frabricante/Fabricante.hpp"
+#include "../Fabricante/Fabricante.hpp"
 using namespace std;
 #ifndef VEICULO_H
 #define VEICULO_H
 class Veiculo{
 
 public:
-//virtais
-virtual string Acelerar() = 0;
-virtual void MostrarDetalhes() = 0;
+virtual void Acelerar(string c)=0;
+virtual void MostrarDetalhes()=0;
 
 void set_nome(string nome);
 void set_anoFabricacao(int ano);
@@ -20,7 +19,7 @@ int get_capacidade();
 
 protected:
 	string nome;
-	Frabricante Fabricante; // deve usar com base os dados inceridos na classe Fabricante
+	Fabricante Fabricante; // deve usar com base os dados inceridos na classe Fabricante
 	int anoFabricacao;
 	int capacidade;
 
